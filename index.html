@@ -5,83 +5,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Bocina</title>
+
+    <!-- Vinculacion de nuestra hoja de estilos CSS -->
+    <link rel="stylesheet" href="estilos.css">
+
+    <!-- Vinculacion de la libreria de iconos Jam Icons v2 - Iconos Tipograficos -->
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
 </head>
-<style>
-    body {
-        background-color:#9e73ff;
-    }
-    .start {
-        background-color:#ffffff;
-    }
-    
-    h1 {
-        color:#9e73ff;
-    }
-        
-    h2 {
-        color:#e7dff;
-    }
-        
-    .idea {
-     color:#ffffff;
-    }   
-        
-    footer {
-        color:#e7dff;
-    }
-    
-</style>
-    
-    
+
 <body>
     <header>
         <img src="bocina-sq.png" alt="Logotipo" width="100" height="100">
-        
-         <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="page-2.html">Quienes somos</a></li>
-                <li><a href="page-3.html">Nuestro trabajo</a></li>
+        <nav class="nav">
+            <ul class="nav__lista">
+                <!-- display: flex -->
+                <li class="nav__item">
+                    <a class="nav__enlace" href="index.html">Inicio</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__enlace" href="nosotros.html">Quienes somos</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__enlace" href="servicios.html">Nuestro trabajo</a>
+                </li>
             </ul>
         </nav>
     </header>
-  
-  
-    <main>
+
+    <main class="main">
+        <!-- Dinamico porque aca vamos a ir generando o colocando las secciones de contenido de esta pagina -->
         <section class="start">
             <div>
                 <h1>Te damos la bienvenida a una nueva mejor comunicación</h1>
                 <h2>Bocina, un lugar dónde le damos sentido a lo que comunicás</h2>
             </div>
         </section>
-        
+
         <section class="idea">
             <div>
-                <p>Los tiempos van cambiando y en Bocina vamos marcando la tendencia 
-                    con las últimas novedeades y con herramientas de actualidad. 
-                    Si querés que tu presencia corporativa esté en la moda, 
-                    agenda una llamada con nuestro equipo y te brindaremos 
+                <p>Los tiempos van cambiando y en Bocina vamos marcando la tendencia
+                    con las últimas novedeades y con herramientas de actualidad.
+                    Si querés que tu presencia corporativa esté en la moda,
+                    agenda una llamada con nuestro equipo y te brindaremos
                     una propuesta a tu medida.</p>
                 <a href="mailto:bocinaofficial@gmail.com?subject=Consulta desde el Sitio Web">Contactanos</a>
             </div>
         </section>
 
+        <!-- https://api.whatsapp.com/send?phone=XXXXXXXXXXX -->
+        <a href="https://wa.me/1133403372" class="position-fixed" target="_blank">
+            <span class="jam jam-whatsapp"></span>
+        </a>
+
     </main>
 
-    <footer>
-        <img src="bocina-sq.png" alt="Logotipo" width="100" height="100">
-        <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="page-2.html">Quienes somos</a></li>
-                <li><a href="page-3.html">Nuestro trabajo</a></li>
-        </ul>
+    <a href=“https://wa.me/numero” class=“position-fixed” target=“_blank”>
+        <span class=“jam jam-whatsapp”></span>
+    </a>
+
+    <footer class="footer">
+        <div class="footer__flex">
+            <img src="bocina-sq.png" alt="Logotipo" width="100" height="100">
+            <ul class="footer__lista">
+                <li class="footer__item">
+                    <a class="footer__enlace" href="">Enlace 1</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__enlace" href="">Enlace 2</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__enlace" href="">Enlace 3</a>
+                </li>
+            </ul>
+        </div>
         <p>SIC desarrollos </p>
         <p>Todos los derechos reservados</p>
     </footer>
-</body>
 
 </html>
-        
-        
-        

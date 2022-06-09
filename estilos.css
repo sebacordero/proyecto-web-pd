@@ -31,15 +31,22 @@ a {
     padding: 0 2rem;
 }
 
-.nav_bar {
-    display:flex;
-    flex-direction:row;
-    justify-content:end;   
+.nav__lista {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
 }
 
-.nav_item {
-    padding:1rem;
+.nav__item {
+    margin-left: 2rem;
+    padding: 1rem;
 }
+
+.nav__enlace {
+    text-decoration: none;
+}
+
 
 .main {
     background-color: #9e73ff;
@@ -75,13 +82,35 @@ h2 {
 .start {
     color: #ffffff;
 }
+
 .idea {
     color: #ffffff;
 }
 
 
 
-
 .footer {
-    color:black;
+    background-color: black;
+    color: white;
+    padding: 4rem 2rem;
+}
+
+.footer__flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.footer__lista {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    list-style: none;
+}
+
+.footer__item {
+    margin-left: 2rem;
 }
