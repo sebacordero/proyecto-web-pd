@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Bocina</title>
 
     <!-- Vinculacion de nuestra hoja de estilos CSS -->
@@ -14,7 +13,6 @@
     <!-- Vinculacion de la libreria de iconos Jam Icons v2 - Iconos Tipograficos -->
     <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
 </head>
-
 
 <body>
     <header>
@@ -35,9 +33,8 @@
         </nav>
     </header>
 
-
-
-    <main>
+    <main class="main">
+        <!-- Dinamico porque aca vamos a ir generando o colocando las secciones de contenido de esta pagina -->
         <section class="start">
             <div>
                 <h1>Bocina</h1>
@@ -56,18 +53,31 @@
             </div>
         </section>
 
+
+        <!-- https://api.whatsapp.com/send?phone=XXXXXXXXXXX -->
+        <a href="https://wa.me/1133403372" class="position-fixed" target="_blank">
+            <span class="jam jam-whatsapp"></span>
+        </a>
+        
     </main>
 
-    <footer>
-        <img src="bocina-sq.png" alt="Logotipo" width="100" height="100">
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="page-2.html">Quienes somos</a></li>
-            <li><a href="page-3.html">Nuestro trabajo</a></li>
-        </ul>
+    <footer class="footer">
+        <div class="footer__flex">
+            <img src="bocina-sq.png" alt="Logotipo" width="100" height="100">
+            <ul class="footer__lista">
+                <li class="footer__item">
+                    <a class="footer__enlace" href="">Enlace 1</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__enlace" href="">Enlace 2</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__enlace" href="">Enlace 3</a>
+                </li>
+            </ul>
+        </div>
         <p>SIC desarrollos </p>
         <p>Todos los derechos reservados</p>
     </footer>
-</body>
 
 </html>

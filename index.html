@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Bocina</title>
 
     <!-- Vinculacion de nuestra hoja de estilos CSS -->
@@ -37,21 +36,26 @@
     <main class="main">
         <!-- Dinamico porque aca vamos a ir generando o colocando las secciones de contenido de esta pagina -->
         <section class="start">
-            <div>
-                <h1>Te damos la bienvenida a una nueva mejor comunicación</h1>
-                <h2>Bocina, un lugar dónde le damos sentido a lo que comunicás</h2>
+            <div class="start__text">
+                <h1 class="start__titulo">Te damos la bienvenida a una nueva mejor comunicación</h1>
+                <h2 class="start__subtitulo">Bocina, un lugar dónde le damos sentido a lo que comunicás</h2>
             </div>
-        </section>
-
-        <section class="idea">
-            <div>
+            <div class="start__slogan">
                 <p>Los tiempos van cambiando y en Bocina vamos marcando la tendencia
                     con las últimas novedeades y con herramientas de actualidad.
                     Si querés que tu presencia corporativa esté en la moda,
                     agenda una llamada con nuestro equipo y te brindaremos
                     una propuesta a tu medida.</p>
+            </div>
+            <div class="start__boton">
                 <a href="mailto:bocinaofficial@gmail.com?subject=Consulta desde el Sitio Web">Contactanos</a>
             </div>
+        </section>
+
+        <section class="idea">
+            <div>
+                <p>Nuevas ideas acá</p>
+           </div>
         </section>
 
         <!-- https://api.whatsapp.com/send?phone=XXXXXXXXXXX -->
@@ -60,10 +64,6 @@
         </a>
 
     </main>
-
-    <a href=“https://wa.me/numero” class=“position-fixed” target=“_blank”>
-        <span class=“jam jam-whatsapp”></span>
-    </a>
 
     <footer class="footer">
         <div class="footer__flex">
