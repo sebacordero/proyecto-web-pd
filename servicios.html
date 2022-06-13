@@ -15,68 +15,103 @@
 </head>
 
 <body>
-    <header>
-        <img src="bocina-sq.png" alt="Logotipo" width="100" height="100">
-        <nav class="nav">
-            <ul class="nav__lista">
-                <!-- display: flex -->
-                <li class="nav__item">
-                    <a class="nav__enlace" href="index.html">Inicio</a>
-                </li>
-                <li class="nav__item">
-                    <a class="nav__enlace" href="nosotros.html">Quienes somos</a>
-                </li>
-                <li class="nav__item">
-                    <a class="nav__enlace" href="servicios.html">Nuestro trabajo</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
 
-    <main class="main">
-        <!-- Dinamico porque aca vamos a ir generando o colocando las secciones de contenido de esta pagina -->
-        <section class="start">
-            <div>
-                <h1>Bocina</h1>
-                <h2>Nuestro trabajo</h2>
+    <body>
+        <header class="header">
+            <img src="images/Bocina-Isologo-wide.png" alt="Logotipo" height="60">
+            <nav class="nav">
+                <ul class="nav__lista">
+                    <!-- display: flex -->
+                    <li class="nav__item">
+                        <a class="nav__enlace" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__enlace" href="nosotros.html">Quienes somos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__enlace" href="servicios.html">Nuestro trabajo</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <main class="main">
+            <!-- Dinamico porque aca vamos a ir generando o colocando las secciones de contenido de esta pagina -->
+            <section class="start">
+                <div class="start__text">
+                    <h1 class="start__sobretitulo">Bocina</h1>
+                    <h2 class="start__titulo">Nuestro trabajo</h2>
+                    <p class="start__slogan">En los últimos meses hemos enfocado nuestra tarea en:
+                        servicios de community manager, metricas de publicidad y creación de
+                        contenido para redes sociales.</p>
+
+                    <p class="start__slogan">Si te interesa saber como podemos ayudarte, escibinos.</p>
+                    <p class="start__boton">
+                        <a href="mailto:bocinaofficial@gmail.com?subject=Consulta desde el Sitio Web">Contactanos</a>
+                    </p>
+                </div>
+                <div class="start__image__etc">
+                    <img src="images/4-tips.png" alt="Tu despegue con comunicacion digital">
+                </div>
+            </section>
+
+            <section class="idea">
+                <h2 class="idea__titulo">Casos de éxito. Clientes. </h2>
+                <div class="idea__padre">
+                    <div class="idea__hijo idea__hijo--1">
+                        <h3>Cliente1</h3>
+                        <img class="idea__img" src="images/idea-1.jpg" alt="Planning" width="100" height="100">
+                    </div>
+                    <div class="idea__hijo idea__hijo--2">
+                        <h3>Cliente2</h3>
+                        <img class="idea__img" src="images/idea-2.png" alt="Quality" width="100" height="100">
+                    </div>
+                    <div class="idea__hijo idea__hijo--3">
+                        <h3>Cliente3</h3>
+                        <img class="idea__img" src="images/idea-3.jpg" alt="Optimize" width="100" height="100">
+                    </div>
+                </div>
+            </section>
+            <section class="meme">
+                <h2 class="idea__actioncall">¿Queres ver resultados, aumentar tus ventas y comunicar de forma eficaz?</h2>
+                <div class="meme__padre">
+                    <div class="meme__hijo meme__hijo--1">
+                        <p class="idea__boton">
+                            <a
+                                href="mailto:bocinaofficial@gmail.com?subject=Consulta desde el Sitio Web">Contactanos</a>
+                        </p>
+                        </div>
+                        <div class="meme__hijo meme__hijo--2">
+
+                            <img src="images/meme1.png" alt="Meme">
+                        </div>
+            </section>
+
+            <a href="https://wa.me/1154985656" class="position-fixed" target="_blank">
+                <span class="jam jam-whatsapp"></span>
+            </a>
+
+
+        </main>
+
+        <footer class="footer">
+            <div class="footer__flex">
+                <img src="images/bocina-sq.png" alt="Logotipo" height="100">
+                <ul class="footer__lista">
+                    <li class="footer__item">
+                        <a class="footer__enlace" href="https://www.instagram.com/bocinaofficial/">instagram</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__enlace" href="">Enlace 2</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__enlace" href="">Enlace 3</a>
+                    </li>
+                </ul>
             </div>
-        </section>
-
-        <section class="idea">
-            <div>
-                <p>En los últimos meses hemos enfocado nuestra tarea en:
-                    servicios de community manager, metricas de publicidad y creación de
-                    contenido para redes sociales</p>
-
-                <p>Si te interesa saber como podemos ayudarte, escibinos.</p>
-                <a href="mailto:bocinaofficial@gmail.com?subject=Consulta desde el Sitio Web">Contactanos</a>
-            </div>
-        </section>
-
-        <!-- https://api.whatsapp.com/send?phone=XXXXXXXXXXX -->
-        <a href="https://wa.me/1133403372" class="position-fixed" target="_blank">
-            <span class="jam jam-whatsapp"></span>
-        </a>
-        
-    </main>
-
-    <footer class="footer">
-        <div class="footer__flex">
-            <img src="bocina-sq.png" alt="Logotipo" width="100" height="100">
-            <ul class="footer__lista">
-                <li class="footer__item">
-                    <a class="footer__enlace" href="">Enlace 1</a>
-                </li>
-                <li class="footer__item">
-                    <a class="footer__enlace" href="">Enlace 2</a>
-                </li>
-                <li class="footer__item">
-                    <a class="footer__enlace" href="">Enlace 3</a>
-                </li>
-            </ul>
-        </div>
-        <p>SIC desarrollos </p>
-        <p>Todos los derechos reservados</p>
-    </footer>
+            <p>SIC desarrollos </p>
+            <p>Todos los derechos reservados</p>
+        </footer>
 
 </html>
