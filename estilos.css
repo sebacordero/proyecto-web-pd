@@ -65,7 +65,10 @@ a {
     padding-top: 93px;
 }
 
-
+ul {
+    margin-bottom: 0;
+    padding-left: 0;
+}
 
 .position-fixed {
     background-color: green;
