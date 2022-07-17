@@ -177,7 +177,7 @@ ul {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-
+    font-size: small;
     gap: 1rem;
 }
 
@@ -276,7 +276,7 @@ ul {
 .contacto {
     padding-top: 100px;
     padding-bottom: 100px;
-    color:#ffffff
+    color: white;
 }
 
 
