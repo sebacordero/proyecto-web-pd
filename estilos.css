@@ -352,17 +352,14 @@ ul {
 @media (max-width: 600px) {
     .start {
         padding: 4rem 1rem;
+        align-items: center;
     }
 
-    .start__text {
+    .start__text,
+    .start__image, .start__image__etc {
         width: 100%;
     }
 
-    .start__image {
-        width: 40%;
-        border-radius: 1rem;
-    }
-    
     img,
     iframe,
     video {
