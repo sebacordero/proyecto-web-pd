@@ -354,11 +354,15 @@ ul {
         padding: 4rem 1rem;
     }
 
-    .start__text,
-    .start__image {
+    .start__text {
         width: 100%;
     }
 
+    .start__image {
+        width: 40%;
+        border-radius: 1rem;
+    }
+    
     img,
     iframe,
     video {
